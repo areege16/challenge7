@@ -40,7 +40,7 @@ The designs were created to the following widths:
 - Family: [Fraunces](https://fonts.google.com/specimen/Fraunces)
 - Weights: 700, 900
 
-## Icons
+## Icons 
 
 We provide the required social icons. But, if you prefer, you can use a font icon library. Some suggestions can be found below:
 
