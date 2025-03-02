@@ -14,9 +14,7 @@ body{
     --Yellow: hsl(51, 100%, 49%);
     --Dark-desaturated-cyan: hsl(167, 40%, 24%);
     --Dark-blue: hsl(198, 62%, 26%);
-
 }
-
 .container {
     display: grid;
     grid-template-areas:
@@ -83,7 +81,6 @@ header {
 .icon-hamburger {
     display: none;
 }
-
 header h1 {
     display: flex;
     justify-content: center;
@@ -112,7 +109,6 @@ header h1 {
     align-items: center;
     flex-wrap: wrap;
 }
-
 .leftDivSection1,
 .rightDivSection2 {
     display: flex;
@@ -135,10 +131,6 @@ header h1 {
    align-content: center;
    position: relative;
 }
-/* .section1 img,.section2 img {
-    width: 100%;
-    height: 100%;
-} */
 .section1 img,
 .section2 img ,
 .section3 img,
@@ -147,14 +139,6 @@ header h1 {
     height: auto;
     display: block;
 }
-/* 
-.section1 img,
-.section2 img {
-    width: 47em;
-    display: block;
-    height: 40em;
-} */
-
 .img-container {
     position: relative;
     overflow: hidden;
@@ -173,7 +157,6 @@ header h1 {
     font-family: 'Fraunces', 'Courier New', Courier, monospace;
 
 }
-
 /* way 2 to make line under learn more */
 /* .learnMore-S1::after, .learnMore-S2::after {
     content: "";
@@ -194,8 +177,6 @@ header h1 {
 .learnMore-S2 {
     background: linear-gradient(to top, var(--Soft-red) 34%, transparent 0);
 }
-
-
 
 .leftTxtSec3,
 .rightTxtSec3 {
@@ -289,7 +270,6 @@ header h1 {
     filter: brightness(0) invert(1);
     cursor: pointer;
 }
-
 
 p,
 .contact a {
@@ -388,36 +368,20 @@ p,
         text-align: center;
     }
 
-    
 .leftDivSection1,
-.rightDivSection2 {
-
+.rightDivSection2 ,
+.imgInSection,.img-container {
     width: 100%;
     align-items: center;
 }
-
-.imgInSection,.img-container {
-        width: 100%;
-
-}
-
-
-    /* .leftDivSection1,
-    .rightDivSection2 {
-        align-items: center;
-    } */
     .leftTxtSec3, .rightTxtSec3 {
-    
         padding: 0;
     }
-
     .containerInSection4 {
         flex-direction: column;
     }
-
     .section5 {
         grid-template-columns: auto auto;
     }
-
 
 }
